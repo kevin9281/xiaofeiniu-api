@@ -6,4 +6,4 @@ const express = require('express'); /* 引入模块 */
 var app = express();  /* 用express 创建app */
 app.listen(PORT,()=>{     /* 监听端口 */
 	console.log('Server Listening'+PORT+'...');
-})
+});
